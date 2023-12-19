@@ -1,43 +1,45 @@
 ## Steps
 
-[x]Decide the game (TIC TAC TOE)
- []Plan your project
- - CREATE THE GAME ON THE GITHUB AND THE FILES - FIRST DAY;
- - FOUND A BACKGROUND COLOR AND A IMAGE OF A FUNNY CHICKEN; FIRST DAY
- - CREATE THE HTML STRUCTURE FOR THE GAME - FIRST DAY
- - CREATE THE BOTTOM Start - FIRST DAY 
-
-- CREATE THE 
- []Define the MVP
- CHECK;
- []Define what are the extras (prioritize them).
+[X]Decide the game (TIC TAC TOE)
  
- []Create the folder structure
- - CREATED
- []Create the files
- - CREATED
- []Start coding
+ [X]Plan your project (DAY BY DAY)
+ - CREATE THE GAME ON THE GITHUB AND THE FILES - FIRST DAY; 
+ - DEFINE THE MVP AND THE STEPS FOR MVP - FIRST DAY;
+ - FOUND A BACKGROUND COLOR AND A IMAGE OF A FUNNY CHICKEN - FIRST DAY;
+ 
+ [X]Define what are the extras (prioritize them).
+- COLOR OF THE SYMBOLS AND SIZE;
+- THE COLOR OF THE SYMBOLS CHANGE WHEN WE HAVE A WINNER, TO BETTER UNDERSTAND WHO AND HOW WIN.
+ [X]Create the folder structure
+ [X]Create the files
+[]Start coding
+
+
+
 
 ## Steps for MVP
 
 1. logic for starting game
-- PRESS THE START BOTTOM AND APPEAR A TABLE WITH THE 9 SPACES ON THE CENTER AND ON TOP OF THAT THE SYMBOLS OF THE GAME
-THEN YOU CHOOSE TO BE PLAYER 1(NOUGHTS) AND THE PLAYER 2(CROSSES);
- - WHEN YOU CLICK ON A SQUARE THE "X" APPEARS AND THE THE PC CHOOSES WHERE TO PUT THE "O" AND SO ON;
--  logic for losing and//or winning
+- PRESS THE START BOTTOM AND APPEAR A TABLE WITH THE 9 SPACES ON THE CENTER AND ON TOP OF THAT THE SYMBOLS OF THE GAME.
+THEN YOU CHOOSE TO BE PLAYER 1(NOUGHTS) OR PLAYER 2(CROSSES);
+
+2. Moves
+ - WHEN YOU CLICK ON A SQUARE THE "X" APPEARS, THEN THE PLAYER 2 CHOOSES WHERE TO PUT THE "O" AND SO;
+
+3.  logic for losing and//or winning
 THE PLAYER WHO MAKES  A VERTICAL/HORIZONTAL OR DIAGONAL ROW WITH THE THREE NOUGHTS OR CROSSES AFTER 5 CHOOSES IS THE WINNER AND THE GAME IS OVER,
 IN CASE OF TIE APPEARS, THE GAME MUST BE RESTARTED AT THE 5 CHANCES;
 
 ##PLAN 
 
-- [x]create the game board( full screen)
-- [x]make a player appear on the screen
-- [x]create rhe logic for the player to move 
-- [x]make the player move  from with arrow keys
+- []create the game board( full screen)
+- []make a player appear on the screen
+- []create rhe logic for the player to move 
+- []make the player move  from with arrow keys
 reate obstacle
- - [x]Move the obstacle
- - [x]Create multiple obstacles
- - [x]Create the collision logic
+ - []Move the obstacle
+ - []Create multiple obstacles
+ - []Create the collision logic
  - (Extra ?) Make the obstacles appear randomly on the screen
  - (Extra) Limit player movement to the play screen
  - (Extra) Change player from block to an image
