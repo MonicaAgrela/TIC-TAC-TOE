@@ -5,14 +5,19 @@
  [X]Plan your project (DAY BY DAY)
  - CREATE THE GAME ON THE GITHUB AND THE FILES - FIRST DAY; 
  - DEFINE THE MVP AND THE STEPS FOR MVP - FIRST DAY;
-
  - FOUND A BACKGROUND COLOR AND A IMAGE OF A FUNNY CHICKEN - FIRST DAY;
- - start coding the front page, the image, the bottom start and the bottom´s for the 2 players;
- - start making the table and search the images of the 2 symbols of the game;
+
+ -already do the front page, with the image, background, the bottom start and the instructions of the game; - SECOND DAY;
+ 
+ - start coding the table and search the images of the 2 symbols of the game; - ALL DONE;
+ - start coding the many options to win or losing the game; - ALL DONE
+
+BLOCKS:
+ -some difficults with the start button;
+ - and i have some difficulties in understanding what i should or should not insert in the constructor;
  
  [X]Define what are the extras (prioritize them).
 - COLOR OF THE SYMBOLS AND SIZE;
-- THE COLOR OF THE SYMBOLS CHANGE WHEN WE HAVE A WINNER, TO BETTER UNDERSTAND WHO AND HOW WIN.
  [X]Create the folder structure
  [X]Create the files
 []Start coding
@@ -23,27 +28,21 @@
 ## Steps for MVP
 
 1. logic for starting game
-- PRESS THE START BOTTOM AND APPEAR A TABLE WITH THE 9 SPACES ON THE CENTER AND ON TOP OF THAT THE SYMBOLS OF THE GAME.
-THEN YOU CHOOSE TO BE PLAYER 1(NOUGHTS) OR PLAYER 2(CROSSES);
-
+- PRESS THE START BOTTOM AND APPEAR A TABLE WITH THE 9 SPACES ON THE CENTER 
 2. Moves
  - WHEN YOU CLICK ON A SQUARE THE "X" APPEARS, THEN THE PLAYER 2 CHOOSES WHERE TO PUT THE "O" AND SO;
 
 3.  logic for losing and//or winning
 THE PLAYER WHO MAKES  A VERTICAL/HORIZONTAL OR DIAGONAL ROW WITH THE THREE NOUGHTS OR CROSSES AFTER 5 CHOOSES IS THE WINNER AND THE GAME IS OVER,
-IN CASE OF TIE APPEARS, THE GAME MUST BE RESTARTED AT THE 5 CHANCES;
+IN CASE OF TIE APPEARS, THE GAME MUST BE RESTARTED;
 
 ##PLAN 
 
-- []create the game board( full screen)
-- []make a player appear on the screen
-- []create rhe logic for the player to move 
-- []make the player move  from with arrow keys
-reate obstacle
- - []Move the obstacle
- - []Create multiple obstacles
- - []Create the collision logic
- - (Extra ?) Make the obstacles appear randomly on the screen
- - (Extra) Limit player movement to the play screen
- - (Extra) Change player from block to an image
- - (Extra) Change obstacles from blocks to images
+- [X]create the front page game where we have the start button and the instructions of the game;
+- [X]crete the board of the game when play the start button;
+- [X]create the logic for the player to move; 
+- [X] create the symbols and the logic of the game;
+- [X] choose the color and create the tile;
+- [X] create the strike and choose the color;
+- [X] create the many possibilities to win, lose or have a draw in the game;
+- [x] create the Restart button;

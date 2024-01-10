@@ -4,23 +4,64 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="../styles/style.css" />
-    <script src="game.js"></script>
     <title>Document</title>
   </head>
   <body>
-    <div id="nameOfTheGame"></div>
-    <h1>TIC TAC TOE</h1>
-    <img
-      src="https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/612ieIu8-2L._AC_UF894,1000_QL80_.jpg"
-      alt="Funny Chicken"
-    />
+    <div id="start-screen">
+      <h1>TIC TAC TOE</h1>
+      <img
+        src="https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/612ieIu8-2L._AC_UF894,1000_QL80_.jpg"
+        alt="Funny Chicken"
+      />
 
-    <p id="ins">
-      <input type="button" value="START" />
-    </p>
-    <p>
-      First Player starts as <b>Player X </b>and Second Player as
-      <b>Player O</b>
-    </p>
+      <p id="game-intro">
+        <input type="button" value="START" />
+      </p>
+
+      <h2>Instructions</h2>
+      <ol>
+        <li>
+          First Player starts as <b>Player X </b>and Second Player as
+          <b>Player O</b>
+        </li>
+        <li>
+          When you press the <b>START</b> button a table with 9 spaces appears;
+        </li>
+        <li>
+          When the
+          <b>Player X</b>
+          click on a square the "X" appears, then the
+          <b>Player O</b>
+          chooses where to put the "O" and so;
+        </li>
+        <li>
+          The player who makes a
+          <b>VERTICAL/HORIZONTAL OR DIAGONAL</b>
+          row with three noughts or crosses is the winner and the game is over,
+          in case of draw, the game must be restarted;
+        </li>
+      </ol>
+    </div>
+
+    <div id="board-countainer"></div>
+    <div id="board">
+      <div boardLine="1" class="tile right-border bottom-border"></div>
+      <div boardLine="2" class="tile right-border bottom-border"></div>
+      <div boardLine="3" class="tile bottom-border"></div>
+      <div boardLine="4" class="tile right-border bottom-border"></div>
+      <div boardLine="5" class="tile right-border bottom-border"></div>
+      <div boardLine="6" class="tile bottom-border"></div>
+      <div boardLine="7" class="tile right-border"></div>
+      <div boardLine="8" class="tile right-border"></div>
+      <div boardLine="9" class="tile"></div>
+      <div id="strike" class="strike"></div>
+    </div>
+    <div id="game-over-area" class="hidden">
+      <h3 id="game-over-text">Winner is Player X</h3>
+      <p id="restart-game">
+        <input type="button" value="RESTART" />
+      </p>
+    </div>
   </body>
+  <script src="../JS/game.js"></script>
 </html>
