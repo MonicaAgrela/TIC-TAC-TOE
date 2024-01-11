@@ -22,7 +22,7 @@
       <ol>
         <li>
           First Player starts as <b>Player X </b>and Second Player as
-          <b>Player O</b>
+          <b>Player O;</b>
         </li>
         <li>
           When you press the <b>START</b> button a table with 9 spaces appears;
@@ -38,29 +38,30 @@
           The player who makes a
           <b>VERTICAL/HORIZONTAL OR DIAGONAL</b>
           row with three noughts or crosses is the winner and the game is over,
-          in case of draw, the game must be restarted;
+          in case of draw, the game must be restarted.
         </li>
       </ol>
     </div>
 
-    <div id="board-countainer"></div>
-    <div id="board">
-      <div boardLine="1" class="tile right-border bottom-border"></div>
-      <div boardLine="2" class="tile right-border bottom-border"></div>
-      <div boardLine="3" class="tile bottom-border"></div>
-      <div boardLine="4" class="tile right-border bottom-border"></div>
-      <div boardLine="5" class="tile right-border bottom-border"></div>
-      <div boardLine="6" class="tile bottom-border"></div>
-      <div boardLine="7" class="tile right-border"></div>
-      <div boardLine="8" class="tile right-border"></div>
-      <div boardLine="9" class="tile"></div>
-      <div id="strike" class="strike"></div>
-    </div>
-    <div id="game-over-area" class="hidden">
-      <h3 id="game-over-text">Winner is Player X</h3>
-      <p id="restart-game">
-        <input type="button" value="RESTART" />
-      </p>
+    <div id="board-countainer">
+      <div id="board">
+        <div boardLine="1" class="tile right-border bottom-border"></div>
+        <div boardLine="2" class="tile right-border bottom-border"></div>
+        <div boardLine="3" class="tile bottom-border"></div>
+        <div boardLine="4" class="tile right-border bottom-border"></div>
+        <div boardLine="5" class="tile right-border bottom-border"></div>
+        <div boardLine="6" class="tile bottom-border"></div>
+        <div boardLine="7" class="tile right-border"></div>
+        <div boardLine="8" class="tile right-border"></div>
+        <div boardLine="9" class="tile"></div>
+        <div id="strike" class="strike"></div>
+      </div>
+      <div id="game-over-area" class="hidden">
+        <h3 id="game-over-text">Winner is Player X</h3>
+        <p id="restart-game">
+          <input type="button" value="RESTART" />
+        </p>
+      </div>
     </div>
   </body>
   <script src="../JS/game.js"></script>
