@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="../styles/style.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/style.css" />
     <title>Document</title>
   </head>
   <body>
@@ -43,26 +43,26 @@
       </ol>
     </div>
 
-    <div id="board-countainer">
-      <div id="board">
-        <div boardLine="1" class="tile right-border bottom-border"></div>
-        <div boardLine="2" class="tile right-border bottom-border"></div>
-        <div boardLine="3" class="tile bottom-border"></div>
-        <div boardLine="4" class="tile right-border bottom-border"></div>
-        <div boardLine="5" class="tile right-border bottom-border"></div>
-        <div boardLine="6" class="tile bottom-border"></div>
-        <div boardLine="7" class="tile right-border"></div>
-        <div boardLine="8" class="tile right-border"></div>
-        <div boardLine="9" class="tile"></div>
-        <div id="strike" class="strike"></div>
-      </div>
-      <div id="game-over-area" class="hidden">
-        <h3 id="game-over-text">Winner is Player X</h3>
-        <p id="restart-game">
-          <input type="button" value="RESTART" />
-        </p>
-      </div>
+
+    <div id="board" >
+      <div boardLine="1" class="tile right-border bottom-border"></div>
+      <div boardLine="2" class="tile right-border bottom-border"></div>
+      <div boardLine="3" class="tile bottom-border"></div>
+      <div boardLine="4" class="tile right-border bottom-border"></div>
+      <div boardLine="5" class="tile right-border bottom-border"></div>
+      <div boardLine="6" class="tile bottom-border"></div>
+      <div boardLine="7" class="tile right-border"></div>
+      <div boardLine="8" class="tile right-border"></div>
+      <div boardLine="9" class="tile"></div>
+      <div id="strike" class="strike"></div>
     </div>
+    <div id="game-over-area" class="hidden">
+      <h3 id="game-over-text">Winner is Player X</h3>
+      <p id="restart-game">
+        <input type="button" value="RESTART" />
+      </p>
+    </div>
+
   </body>
-  <script src="../JS/game.js"></script>
+  <script src="./JS/game.js"></script>
 </html>
