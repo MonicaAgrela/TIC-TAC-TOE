@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(255, 247, 224);
+  background-color: rgb(255, 255, 144);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -128,6 +128,8 @@ ol {
   width: 30%;
   margin-top: 40px;
 }
+
+
 
 h3 {
   color: black;
