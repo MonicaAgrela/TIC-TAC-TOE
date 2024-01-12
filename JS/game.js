@@ -113,9 +113,15 @@ function checkWinner() {
 }
 
 function gameOver(winnerText) {
-  let text = "Draw!";
+  let text = "Draw! TRY AGAIN";
   if (winnerText != null) {
     text = `Winner is ${winnerText}`;
+
+    let winnerImage = document.createElement("img");
+    winnerImage.src =
+      "https://media1.tenor.com/m/oqZkMwaJR3EAAAAd/chicken-dance-lets-do-the-chicken-dance.gif";
+    winnerImage.setAttribute("alt", "chicken img");
+    gameOverArea.appendChild(winnerImage);
   }
   gameOverArea.className = "visible";
   gameOverText.innerText = text;
